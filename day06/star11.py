@@ -32,13 +32,6 @@ def get_next(
     return next_pos, direction
 
 
-def is_valid_position(
-    pos: Position, maxrow: int, maxcol: int, minrow: int = 0, mincol: int = 0
-):
-    row, col = pos
-    return row < minrow or row > maxrow or col < mincol or col > maxcol
-
-
 n_iter = 0
 seen: PositionSet = set()
 while n_iter < 10000:
