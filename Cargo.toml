@@ -1,0 +1,122 @@
+[package]
+name = "advent2024"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.12.0"
+
+[[bin]]
+name = "star01"
+path = "day01/star01.rs"
+
+[[bin]]
+name = "star02"
+path = "day01/star02.rs"
+
+[[bin]]
+name = "star03"
+path = "day02/star03.rs"
+
+[[bin]]
+name = "star04"
+path = "day02/star04.rs"
+
+[[bin]]
+name = "star05"
+path = "day03/star05.rs"
+
+[[bin]]
+name = "star06"
+path = "day03/star06.rs"
+
+[[bin]]
+name = "star07"
+path = "day04/star07.rs"
+
+[[bin]]
+name = "star08"
+path = "day04/star08.rs"
+
+[[bin]]
+name = "star09"
+path = "day05/star09.rs"
+
+[[bin]]
+name = "star10"
+path = "day05/star10.rs"
+
+[[bin]]
+name = "star11"
+path = "day06/star11.rs"
+
+[[bin]]
+name = "star12"
+path = "day06/star12.rs"
+
+[[bin]]
+name = "star13"
+path = "day07/star13.rs"
+
+[[bin]]
+name = "star14"
+path = "day07/star14.rs"
+
+[[bin]]
+name = "star15"
+path = "day08/star15.rs"
+
+[[bin]]
+name = "star16"
+path = "day08/star16.rs"
+
+[[bin]]
+name = "star17"
+path = "day09/star17.rs"
+
+[[bin]]
+name = "star18"
+path = "day09/star18.rs"
+
+[[bin]]
+name = "star19"
+path = "day10/star19.rs"
+
+[[bin]]
+name = "star20"
+path = "day10/star20.rs"
+
+[[bin]]
+name = "star21"
+path = "day11/star21.rs"
+
+[[bin]]
+name = "star22"
+path = "day11/star22.rs"
+
+[[bin]]
+name = "star23"
+path = "day12/star23.rs"
+
+[[bin]]
+name = "star24"
+path = "day12/star24.rs"
+
+[[bin]]
+name = "star25"
+path = "day13/star25.rs"
+
+[[bin]]
+name = "star26"
+path = "day13/star26.rs"
+
+[[bin]]
+name = "star27"
+path = "day14/star27.rs"
+
+[[bin]]
+name = "star28"
+path = "day14/star28.rs"
+

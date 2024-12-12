@@ -162,3 +162,7 @@ cython_debug/
 #.idea/
 
 test.txt
+test*.txt
+
+# rust
+Cargo.lock
