@@ -1,11 +1,11 @@
-first = [] 
-second = []
+first: list[int] = []
+second: list[int] = []
 
-with open('input.txt') as f:
-    for i, line in enumerate(f):
+with open("input.txt") as f:
+    for line in f:
         left, right = line.split()
         first.append(int(left))
-        second.append((right))
+        second.append(int(right))
 
 sorted_first = sorted(first)
 sorted_second = sorted(second)
