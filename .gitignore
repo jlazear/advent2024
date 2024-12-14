@@ -163,6 +163,9 @@ cython_debug/
 
 test.txt
 test*.txt
+*/imgs/
 
 # rust
 Cargo.lock
+
+
